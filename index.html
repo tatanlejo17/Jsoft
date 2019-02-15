@@ -56,13 +56,19 @@
     <!-- SECTION -->
     <section>
         <!-- Crear una barra de navegación con botones y efecto hover -->
-        <nav class="barra sticky-top">
-            <div class="logo2"> <a href="http:#"><i class="fab fa-atlassian fa-2x">&nbsp;<span> Jsoft</i></span></a> </div>
-            <ul class="navbar-nav d-flex flex-row">
-                <li class="item"><a class="nav-link" href="#">Home</a></li>
-                <li class="item"><a class="nav-link" href="#">Proyectos</a></li>
-                <li class="item"><a class="nav-link" href="#">Nosotros</a></li>
-            </ul>
+        <nav class="barra navbar-nav navbar-toggleable-sm sticky-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#btnCollapse" aria-controls="btnCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="logo2"> <a href="http:#"><i class="fab fa-atlassian fa-2x d-inline-block align-top">&nbsp;<span>Jsoft</i></span></a> </div>
+            <div class="collapse navbar-collapse" id="btnCollapse">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="item"><a class="nav-link" href="#">Proyectos</a></li>
+                    <li class="item"><a class="nav-link" href="#">Nosotros</a></li>
+                </ul>
+            </div>
+            
         </nav>
 
         <!-- Cuerpo del documento -->
