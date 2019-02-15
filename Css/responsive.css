@@ -1,0 +1,61 @@
+/*Crear los media query que haran responsive nuestro sitio web*/
+
+@media all and (max-width: 800px){
+
+    header{
+        flex-flow: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo, .frase{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo p{
+        font-size: 35px;
+        right: 0%;
+    }
+}
+
+@media all and (max-width: 500px){
+    .logo p{
+        font-size: 60px;
+    }
+
+    .logo{
+        margin-top: 60px;
+        margin-bottom: 160px;
+    }
+    .letra{
+        font-size: 15px;
+        text-align: right;
+        /*font-family: 'Lancelot', cursive;*/
+    }
+
+    .contenedor{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo{
+        width: 80%;
+        background: brown;
+    }
+
+    .titulo p{
+        font-size: 30px;
+        color: aliceblue;
+    }
+}
