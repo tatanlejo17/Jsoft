@@ -1,5 +1,5 @@
 /*Crear los media query que haran responsive nuestro sitio web*/
-
+/* Responsives Header */
 @media all and (max-width: 800px){
 
     header{
@@ -57,5 +57,36 @@
     .titulo p{
         font-size: 20px;
         color: aliceblue;
+    }
+}
+
+/* Responsive Section */
+/* Animación de leve desplazamiento en los botones de la barra de navegación */
+@keyframes animacion1 {
+    from {
+         left: 0px;
+    }to{
+         left: 5px;
+         /* background: rgb(117, 31, 31); */
+    }
+}
+
+@media all and (max-width: 600px){
+    nav{
+         padding: 5px;
+    }
+    nav div div{
+         margin-top: 15px;
+         /* background: greenyellow; */
+         height: auto;
+         justify-content: flex-start;
+         align-items: flex-start;
+    }
+    .item{
+         margin-bottom: 10px;
+    }
+    .logo{
+         font-size: 16px;
+         padding: 10px 0px;
     }
 }
