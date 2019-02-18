@@ -75,12 +75,16 @@
     nav{
          padding: 5px;
     }
+    .barra{
+        height: auto;
+    }
     nav div div{
          margin-top: 15px;
          /* background: greenyellow; */
          height: auto;
          justify-content: flex-start;
          align-items: flex-start;
+         display: block;
     }
     .item{
          margin-bottom: 10px;

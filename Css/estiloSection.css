@@ -13,10 +13,10 @@ section{
     /* background: #161616e0; */
     opacity: .9;
     height: 60px;
-    display: flex;
-    flex-flow: row;
+    /* display: flex; */
+    /* flex-flow: row; */
     margin-bottom: 40px;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
     .logo2{
          flex: 1 1 auto;
