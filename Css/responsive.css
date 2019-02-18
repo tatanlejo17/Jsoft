@@ -81,11 +81,12 @@
     nav div div{
          margin-top: 15px;
          /* background: greenyellow; */
-         width: 100%;
+         width: 90%;
          height: auto;
-         justify-content: center;
+         justify-content: flex-end;
          align-items: flex-end;
          display: block;
+         padding-right: 10px;
     }
     .item{
          margin-bottom: 10px;
