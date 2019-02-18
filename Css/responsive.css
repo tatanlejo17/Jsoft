@@ -86,7 +86,7 @@
          height: auto;
          justify-content: flex-end;
          align-items: flex-end;
-         display: block;
+         display: inline;
          padding-right: 10px;
     }
     .item{
