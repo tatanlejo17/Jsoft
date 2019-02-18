@@ -81,9 +81,10 @@
     nav div div{
          margin-top: 15px;
          /* background: greenyellow; */
+         width: 100%;
          height: auto;
-         justify-content: flex-start;
-         align-items: flex-start;
+         justify-content: center;
+         align-items: flex-end;
          display: block;
     }
     .item{
